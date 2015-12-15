@@ -14,6 +14,14 @@
 		1EA6BD401C2052840090F692 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EA6BD381C2052840090F692 /* LaunchScreen.storyboard */; };
 		1EA6BD411C2052840090F692 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EA6BD3A1C2052840090F692 /* Main.storyboard */; };
 		1EA6BD431C2052840090F692 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA6BD3D1C2052840090F692 /* ViewController.swift */; };
+		1EA6BD531C205AEE0090F692 /* ArabicToRoman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA6BD4F1C205AEE0090F692 /* ArabicToRoman.swift */; };
+		1EA6BD541C205AEE0090F692 /* RomanCharacterArabicValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA6BD501C205AEE0090F692 /* RomanCharacterArabicValue.swift */; };
+		1EA6BD551C205AEE0090F692 /* RomanNumberParsingStateMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA6BD511C205AEE0090F692 /* RomanNumberParsingStateMachine.swift */; };
+		1EA6BD561C205AEE0090F692 /* RomanToArabic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA6BD521C205AEE0090F692 /* RomanToArabic.swift */; };
+		1EA6BD591C205B460090F692 /* ArabicToRomanSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA6BD581C205B460090F692 /* ArabicToRomanSpec.swift */; };
+		1EA6BD5E1C205B530090F692 /* RomanCharacterArabicValueSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA6BD5B1C205B530090F692 /* RomanCharacterArabicValueSpec.swift */; };
+		1EA6BD5F1C205B530090F692 /* RomanToArabicSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA6BD5C1C205B530090F692 /* RomanToArabicSpec.swift */; };
+		1EA6BD601C205B530090F692 /* SupportedRomanNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA6BD5D1C205B530090F692 /* SupportedRomanNumbers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +46,14 @@
 		1EA6BD3C1C2052840090F692 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Example/Info.plist; sourceTree = "<group>"; };
 		1EA6BD3D1C2052840090F692 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Example/ViewController.swift; sourceTree = "<group>"; };
 		1EA6BD451C2054C10090F692 /* ArabsAndRomansPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = ArabsAndRomansPlayground.playground; path = Example/ArabsAndRomansPlayground.playground; sourceTree = "<group>"; };
+		1EA6BD4F1C205AEE0090F692 /* ArabicToRoman.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArabicToRoman.swift; path = ../ArabicRomanNumerals/ArabicToRoman.swift; sourceTree = "<group>"; };
+		1EA6BD501C205AEE0090F692 /* RomanCharacterArabicValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RomanCharacterArabicValue.swift; path = ../ArabicRomanNumerals/RomanCharacterArabicValue.swift; sourceTree = "<group>"; };
+		1EA6BD511C205AEE0090F692 /* RomanNumberParsingStateMachine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RomanNumberParsingStateMachine.swift; path = ../ArabicRomanNumerals/RomanNumberParsingStateMachine.swift; sourceTree = "<group>"; };
+		1EA6BD521C205AEE0090F692 /* RomanToArabic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RomanToArabic.swift; path = ../ArabicRomanNumerals/RomanToArabic.swift; sourceTree = "<group>"; };
+		1EA6BD581C205B460090F692 /* ArabicToRomanSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArabicToRomanSpec.swift; sourceTree = "<group>"; };
+		1EA6BD5B1C205B530090F692 /* RomanCharacterArabicValueSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RomanCharacterArabicValueSpec.swift; sourceTree = "<group>"; };
+		1EA6BD5C1C205B530090F692 /* RomanToArabicSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RomanToArabicSpec.swift; sourceTree = "<group>"; };
+		1EA6BD5D1C205B530090F692 /* SupportedRomanNumbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SupportedRomanNumbers.swift; sourceTree = "<group>"; };
 		2AA6CDA8DFCEFBFFFD90C8CA /* Pods-ArabicRomanNumeralsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArabicRomanNumeralsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArabicRomanNumeralsTests/Pods-ArabicRomanNumeralsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		451E705F36C32DDA8F05E946 /* Pods_ArabicRomanNumeralsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArabicRomanNumeralsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7A630691EC55176076B0174 /* Pods-ArabicRomanNumeralsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArabicRomanNumeralsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArabicRomanNumeralsTests/Pods-ArabicRomanNumeralsTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -73,8 +89,8 @@
 		1EA6BD081C2050730090F692 = {
 			isa = PBXGroup;
 			children = (
+				1EA6BD4E1C205AD60090F692 /* ArabicRomanNumerals */,
 				1EA6BD341C2051F50090F692 /* Example */,
-				1EA6BD131C2050730090F692 /* ArabicRomanNumerals */,
 				1EA6BD281C2050730090F692 /* ArabicRomanNumeralsTests */,
 				1EA6BD121C2050730090F692 /* Products */,
 				22CA22F1122293BA70924104 /* Pods */,
@@ -91,16 +107,11 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1EA6BD131C2050730090F692 /* ArabicRomanNumerals */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ArabicRomanNumerals;
-			sourceTree = "<group>";
-		};
 		1EA6BD281C2050730090F692 /* ArabicRomanNumeralsTests */ = {
 			isa = PBXGroup;
 			children = (
+				1EA6BD571C205B460090F692 /* ArabicToRomanTests */,
+				1EA6BD5A1C205B530090F692 /* RomanToArabicTests */,
 				1EA6BD291C2050730090F692 /* ArabicRomanNumeralsTests.swift */,
 				1EA6BD2B1C2050730090F692 /* Info.plist */,
 			);
@@ -128,6 +139,35 @@
 			);
 			name = Base.lproj;
 			path = Example/Base.lproj;
+			sourceTree = "<group>";
+		};
+		1EA6BD4E1C205AD60090F692 /* ArabicRomanNumerals */ = {
+			isa = PBXGroup;
+			children = (
+				1EA6BD4F1C205AEE0090F692 /* ArabicToRoman.swift */,
+				1EA6BD521C205AEE0090F692 /* RomanToArabic.swift */,
+				1EA6BD501C205AEE0090F692 /* RomanCharacterArabicValue.swift */,
+				1EA6BD511C205AEE0090F692 /* RomanNumberParsingStateMachine.swift */,
+			);
+			name = ArabicRomanNumerals;
+			sourceTree = "<group>";
+		};
+		1EA6BD571C205B460090F692 /* ArabicToRomanTests */ = {
+			isa = PBXGroup;
+			children = (
+				1EA6BD581C205B460090F692 /* ArabicToRomanSpec.swift */,
+			);
+			path = ArabicToRomanTests;
+			sourceTree = "<group>";
+		};
+		1EA6BD5A1C205B530090F692 /* RomanToArabicTests */ = {
+			isa = PBXGroup;
+			children = (
+				1EA6BD5B1C205B530090F692 /* RomanCharacterArabicValueSpec.swift */,
+				1EA6BD5C1C205B530090F692 /* RomanToArabicSpec.swift */,
+				1EA6BD5D1C205B530090F692 /* SupportedRomanNumbers.swift */,
+			);
+			path = RomanToArabicTests;
 			sourceTree = "<group>";
 		};
 		22CA22F1122293BA70924104 /* Pods */ = {
@@ -291,8 +331,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EA6BD531C205AEE0090F692 /* ArabicToRoman.swift in Sources */,
+				1EA6BD551C205AEE0090F692 /* RomanNumberParsingStateMachine.swift in Sources */,
+				1EA6BD561C205AEE0090F692 /* RomanToArabic.swift in Sources */,
 				1EA6BD431C2052840090F692 /* ViewController.swift in Sources */,
 				1EA6BD3E1C2052840090F692 /* AppDelegate.swift in Sources */,
+				1EA6BD541C205AEE0090F692 /* RomanCharacterArabicValue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +345,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EA6BD2A1C2050730090F692 /* ArabicRomanNumeralsTests.swift in Sources */,
+				1EA6BD601C205B530090F692 /* SupportedRomanNumbers.swift in Sources */,
+				1EA6BD591C205B460090F692 /* ArabicToRomanSpec.swift in Sources */,
+				1EA6BD5E1C205B530090F692 /* RomanCharacterArabicValueSpec.swift in Sources */,
+				1EA6BD5F1C205B530090F692 /* RomanToArabicSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
