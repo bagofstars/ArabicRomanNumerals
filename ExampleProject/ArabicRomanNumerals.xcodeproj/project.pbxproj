@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0613633A728C54AED42660F2 /* Pods_ArabicRomanNumeralsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 451E705F36C32DDA8F05E946 /* Pods_ArabicRomanNumeralsTests.framework */; };
 		1EA6BD2A1C2050730090F692 /* ArabicRomanNumeralsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA6BD291C2050730090F692 /* ArabicRomanNumeralsTests.swift */; };
 		1EA6BD3E1C2052840090F692 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA6BD351C2052840090F692 /* AppDelegate.swift */; };
 		1EA6BD3F1C2052840090F692 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EA6BD361C2052840090F692 /* Assets.xcassets */; };
 		1EA6BD401C2052840090F692 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EA6BD381C2052840090F692 /* LaunchScreen.storyboard */; };
 		1EA6BD411C2052840090F692 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EA6BD3A1C2052840090F692 /* Main.storyboard */; };
-		1EA6BD421C2052840090F692 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1EA6BD3C1C2052840090F692 /* Info.plist */; };
 		1EA6BD431C2052840090F692 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA6BD3D1C2052840090F692 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +38,9 @@
 		1EA6BD3C1C2052840090F692 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Example/Info.plist; sourceTree = "<group>"; };
 		1EA6BD3D1C2052840090F692 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Example/ViewController.swift; sourceTree = "<group>"; };
 		1EA6BD451C2054C10090F692 /* ArabsAndRomansPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = ArabsAndRomansPlayground.playground; path = Example/ArabsAndRomansPlayground.playground; sourceTree = "<group>"; };
+		2AA6CDA8DFCEFBFFFD90C8CA /* Pods-ArabicRomanNumeralsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArabicRomanNumeralsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArabicRomanNumeralsTests/Pods-ArabicRomanNumeralsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		451E705F36C32DDA8F05E946 /* Pods_ArabicRomanNumeralsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArabicRomanNumeralsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7A630691EC55176076B0174 /* Pods-ArabicRomanNumeralsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArabicRomanNumeralsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArabicRomanNumeralsTests/Pods-ArabicRomanNumeralsTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,12 +55,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0613633A728C54AED42660F2 /* Pods_ArabicRomanNumeralsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		171D2B95CDD224E86821C6C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				451E705F36C32DDA8F05E946 /* Pods_ArabicRomanNumeralsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1EA6BD081C2050730090F692 = {
 			isa = PBXGroup;
 			children = (
@@ -65,6 +77,8 @@
 				1EA6BD131C2050730090F692 /* ArabicRomanNumerals */,
 				1EA6BD281C2050730090F692 /* ArabicRomanNumeralsTests */,
 				1EA6BD121C2050730090F692 /* Products */,
+				22CA22F1122293BA70924104 /* Pods */,
+				171D2B95CDD224E86821C6C3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,6 +130,15 @@
 			path = Example/Base.lproj;
 			sourceTree = "<group>";
 		};
+		22CA22F1122293BA70924104 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2AA6CDA8DFCEFBFFFD90C8CA /* Pods-ArabicRomanNumeralsTests.debug.xcconfig */,
+				C7A630691EC55176076B0174 /* Pods-ArabicRomanNumeralsTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,9 +163,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1EA6BD311C2050730090F692 /* Build configuration list for PBXNativeTarget "ArabicRomanNumeralsTests" */;
 			buildPhases = (
+				4D3C34DE319FB750D36F3672 /* Check Pods Manifest.lock */,
 				1EA6BD211C2050730090F692 /* Sources */,
 				1EA6BD221C2050730090F692 /* Frameworks */,
 				1EA6BD231C2050730090F692 /* Resources */,
+				C0EDE74F8D213DB696A2A871 /* Embed Pods Frameworks */,
+				4F380E70C8262955245E293F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -198,7 +224,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1EA6BD411C2052840090F692 /* Main.storyboard in Resources */,
-				1EA6BD421C2052840090F692 /* Info.plist in Resources */,
 				1EA6BD401C2052840090F692 /* LaunchScreen.storyboard in Resources */,
 				1EA6BD3F1C2052840090F692 /* Assets.xcassets in Resources */,
 			);
@@ -212,6 +237,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D3C34DE319FB750D36F3672 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4F380E70C8262955245E293F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArabicRomanNumeralsTests/Pods-ArabicRomanNumeralsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0EDE74F8D213DB696A2A871 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ArabicRomanNumeralsTests/Pods-ArabicRomanNumeralsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1EA6BD0D1C2050730090F692 /* Sources */ = {
@@ -369,6 +442,7 @@
 		};
 		1EA6BD321C2050730090F692 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AA6CDA8DFCEFBFFFD90C8CA /* Pods-ArabicRomanNumeralsTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ArabicRomanNumeralsTests/Info.plist;
@@ -381,6 +455,7 @@
 		};
 		1EA6BD331C2050730090F692 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7A630691EC55176076B0174 /* Pods-ArabicRomanNumeralsTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ArabicRomanNumeralsTests/Info.plist;
