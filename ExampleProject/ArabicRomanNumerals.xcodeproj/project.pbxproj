@@ -11,8 +11,6 @@
 		1EA6BD3E1C2052840090F692 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA6BD351C2052840090F692 /* AppDelegate.swift */; };
 		1EA6BD3F1C2052840090F692 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EA6BD361C2052840090F692 /* Assets.xcassets */; };
 		1EA6BD401C2052840090F692 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EA6BD381C2052840090F692 /* LaunchScreen.storyboard */; };
-		1EA6BD411C2052840090F692 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EA6BD3A1C2052840090F692 /* Main.storyboard */; };
-		1EA6BD431C2052840090F692 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA6BD3D1C2052840090F692 /* ViewController.swift */; };
 		1EA6BD531C205AEE0090F692 /* ArabicToRoman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA6BD4F1C205AEE0090F692 /* ArabicToRoman.swift */; };
 		1EA6BD541C205AEE0090F692 /* RomanCharacterArabicValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA6BD501C205AEE0090F692 /* RomanCharacterArabicValue.swift */; };
 		1EA6BD551C205AEE0090F692 /* RomanNumberParsingStateMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EA6BD511C205AEE0090F692 /* RomanNumberParsingStateMachine.swift */; };
@@ -40,9 +38,7 @@
 		1EA6BD351C2052840090F692 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Example/AppDelegate.swift; sourceTree = "<group>"; };
 		1EA6BD361C2052840090F692 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Example/Assets.xcassets; sourceTree = "<group>"; };
 		1EA6BD391C2052840090F692 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1EA6BD3B1C2052840090F692 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
 		1EA6BD3C1C2052840090F692 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Example/Info.plist; sourceTree = "<group>"; };
-		1EA6BD3D1C2052840090F692 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Example/ViewController.swift; sourceTree = "<group>"; };
 		1EA6BD4F1C205AEE0090F692 /* ArabicToRoman.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArabicToRoman.swift; path = ../ArabicRomanNumerals/ArabicToRoman.swift; sourceTree = "<group>"; };
 		1EA6BD501C205AEE0090F692 /* RomanCharacterArabicValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RomanCharacterArabicValue.swift; path = ../ArabicRomanNumerals/RomanCharacterArabicValue.swift; sourceTree = "<group>"; };
 		1EA6BD511C205AEE0090F692 /* RomanNumberParsingStateMachine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RomanNumberParsingStateMachine.swift; path = ../ArabicRomanNumerals/RomanNumberParsingStateMachine.swift; sourceTree = "<group>"; };
@@ -122,7 +118,6 @@
 				1EA6BD361C2052840090F692 /* Assets.xcassets */,
 				1EA6BD371C2052840090F692 /* Base.lproj */,
 				1EA6BD3C1C2052840090F692 /* Info.plist */,
-				1EA6BD3D1C2052840090F692 /* ViewController.swift */,
 				1EA6BD611C207FF80090F692 /* ArabsAndRomansPlayground.playground */,
 			);
 			name = Example;
@@ -132,7 +127,6 @@
 			isa = PBXGroup;
 			children = (
 				1EA6BD381C2052840090F692 /* LaunchScreen.storyboard */,
-				1EA6BD3A1C2052840090F692 /* Main.storyboard */,
 			);
 			name = Base.lproj;
 			path = Example/Base.lproj;
@@ -260,7 +254,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EA6BD411C2052840090F692 /* Main.storyboard in Resources */,
 				1EA6BD401C2052840090F692 /* LaunchScreen.storyboard in Resources */,
 				1EA6BD3F1C2052840090F692 /* Assets.xcassets in Resources */,
 			);
@@ -331,7 +324,6 @@
 				1EA6BD531C205AEE0090F692 /* ArabicToRoman.swift in Sources */,
 				1EA6BD551C205AEE0090F692 /* RomanNumberParsingStateMachine.swift in Sources */,
 				1EA6BD561C205AEE0090F692 /* RomanToArabic.swift in Sources */,
-				1EA6BD431C2052840090F692 /* ViewController.swift in Sources */,
 				1EA6BD3E1C2052840090F692 /* AppDelegate.swift in Sources */,
 				1EA6BD541C205AEE0090F692 /* RomanCharacterArabicValue.swift in Sources */,
 			);
@@ -365,14 +357,6 @@
 				1EA6BD391C2052840090F692 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		1EA6BD3A1C2052840090F692 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1EA6BD3B1C2052840090F692 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
