@@ -23,9 +23,9 @@ enum ArabicToRomanError: ErrorType
 }
 
 
-final class ArabicToRoman
+final public class ArabicToRoman
 {
-  static func romanNumberFromArabicNumber(var number: Int) throws -> String
+  static public func romanNumberFromArabicNumber(var number: Int) throws -> String
   {
     if (number < ArabicToRomanConsts.arabicNumberLowerLimit ||
         number > ArabicToRomanConsts.arabicNumberUpperLimit) {

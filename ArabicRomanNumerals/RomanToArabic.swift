@@ -20,9 +20,9 @@ enum RomanToArabicError: ErrorType
   case InvalidRomanNumberFormat
 }
 
-final class RomanToArabic
+final public class RomanToArabic
 {
-  static func arabicNumberFromRomanNumber(romanNumber: String) throws -> Int
+  static public func arabicNumberFromRomanNumber(romanNumber: String) throws -> Int
   {
     try validateInputStringIsNotEmpty(romanNumber)
     try validateCharactersInRomanNumber(romanNumber)
